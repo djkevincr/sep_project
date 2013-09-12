@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <AutoCompleteTextView 
+    android:layout_width="fill_parent" 
+    android:text="" 
+    android:layout_height="wrap_content" android:inputType="phone|textUri" android:id="@+id/Text1">
+        <requestFocus></requestFocus>
+    </AutoCompleteTextView>
+    <TextView android:layout_width="fill_parent" android:id="@+id/Text2" android:layout_height="wrap_content"></TextView>
+    <Button android:text="@string/send" android:id="@+id/button1" android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+</LinearLayout>

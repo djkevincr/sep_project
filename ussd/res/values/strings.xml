@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="send">Send</string>
+    <string name="app_name">Ussd</string>
+    <string name="error_ussd_msg">USSD сообщение не было получено.</string>
+</resources>
